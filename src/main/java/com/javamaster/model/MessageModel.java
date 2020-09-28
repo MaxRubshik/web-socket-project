@@ -9,7 +9,7 @@ public class MessageModel {
         return mesasge;
     }
 
-    public void setMesasge(String mesasge) {
+    public void setMessage(String mesasge) {
         this.mesasge = mesasge;
     }
 
