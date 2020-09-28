@@ -2,15 +2,15 @@ package com.javamaster.model;
 
 public class MessageModel {
 
-    private String mesasge;
+    private String message;
     private String fromLogin;
 
-    public String getMesasge() {
-        return mesasge;
+    public String getMessage() {
+        return message;
     }
 
     public void setMessage(String mesasge) {
-        this.mesasge = mesasge;
+        this.message = mesasge;
     }
 
     public String getFromLogin() {
@@ -24,7 +24,7 @@ public class MessageModel {
     @Override
     public String toString() {
         return "MessageModel{" +
-                "mesasge='" + mesasge + '\'' +
+                "message='" + message + '\'' +
                 ", fromLogin='" + fromLogin + '\'' +
                 '}';
     }

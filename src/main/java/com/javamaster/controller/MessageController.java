@@ -6,7 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.DestinationVariable;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Set;
 
 @RestController
 public class MessageController {
@@ -16,7 +19,7 @@ public class MessageController {
 
     @MessageMapping("/chat/{to}")
     public void sendMessage(@DestinationVariable String to, MessageModel message) {
-        System.out.println("Sending message: " +message+ " to: " + to);
+        System.out.println("Sending message: " + message + " to: " + to);
         boolean isExist = UserStorage.getInstance().getUsers().contains(to);
 
         if (isExist) {
