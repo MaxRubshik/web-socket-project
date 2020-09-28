@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7883beed-59c0-4a43-888d-6f2aa2e464bf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javamaster/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javamaster/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javamaster/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javamaster/model/MessageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javamaster/model/MessageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javamaster/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="320">
               <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -30,6 +28,29 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4063">
+              <caret line="239" column="1" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/template.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="UserStorage.java" pinned="false" current-in-tab="false">
@@ -82,6 +103,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/javamaster/model/MessageModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javamaster/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javamaster/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/frontend/index.html" />
+        <option value="$PROJECT_DIR$/frontend/template.html" />
+        <option value="$PROJECT_DIR$/frontend/css/style.css" />
       </list>
     </option>
   </component>
@@ -124,6 +148,11 @@
             <path>
               <item name="web-socket-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-socket-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-socket-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-socket-project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-socket-project" type="b2602c69:ProjectViewProjectNode" />
@@ -277,7 +306,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601295025166</updated>
-      <workItem from="1601295026494" duration="6132000" />
+      <workItem from="1601295026494" duration="6384000" />
     </task>
     <task id="LOCAL-00001" summary="messageModel and UserStorage(DB)">
       <created>1601297322987</created>
@@ -293,11 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601300702797</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="user controller">
+      <created>1601308101143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601308101143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6132000" />
+    <option name="totallyTimeSpent" value="6384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1214" height="877" extended-state="0" />
@@ -314,7 +350,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39950064" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39950064" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32958803" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -380,7 +416,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="messageModel and UserStorage(DB)" />
     <MESSAGE value="controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="controller" />
+    <MESSAGE value="user controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="user controller" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javamaster/configuration/WebSocketConfiguration.java">
@@ -447,13 +484,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javamaster/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="320">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#901#902#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/template.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4063">
+          <caret line="239" column="1" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
         </state>
       </provider>
     </entry>
