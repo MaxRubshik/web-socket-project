@@ -2,6 +2,7 @@ package com.javamaster.controller;
 
 import com.javamaster.storage.UserStorage;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Set;
 
 @RestController
+@CrossOrigin
 public class UserController {
 
     @GetMapping("/registration/{userName}")
